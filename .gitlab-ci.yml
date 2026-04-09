@@ -1,15 +1,6 @@
 stages:
-  - build
-  - test
-
-build-job:
-  stage: build
-  image: node:18
-  script:
-    - echo "Build berhasil"
-
+- test
 test-job:
   stage: test
-  image: node:18
-  script:
-    - echo "Test berhasil"
+script:
+  - echo "CI jalan"
