@@ -7,7 +7,6 @@ build-job:
   image: node:18
   script:
     - echo "Build berhasil"
-    - npm install
 
 test-job:
   stage: test
