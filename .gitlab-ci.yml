@@ -1,7 +1,7 @@
 stages:
-- test
+  - test
 
 test-job:
-stage: test
-script:
-- echo "CI jalan"
+  stage: test
+  script:
+    - echo "CI jalan"
